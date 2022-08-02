@@ -19,3 +19,4 @@ export function query(text, params, callback) {
 
 const result = await pool.query(`SELECT NOW()`);
 console.log(result.rows);
+
