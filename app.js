@@ -1,6 +1,7 @@
 import express from "express";
 import 'dotenv/config';
 //import pg from "pg";
+import emergencyContactsRouter from "./routes/route.js";
 
 const app = express();
 const port = process.env.PORT || 3001;
@@ -16,8 +17,7 @@ app.get("/", function (req, res) {
   });
 
 
-//come from routes.js  
-//app.use("/", router);
+app.use('/emergency', emergencyContactsRouter)
 
 
 app.listen(port, () => {
