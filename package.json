@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/SchoolOfCode/final-project_back-end-team-we-re-on-mute#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "nodemon": "^2.0.19",
     "pg": "^8.7.3"
