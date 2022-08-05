@@ -82,7 +82,7 @@ export const emergency_contacts = [
         police: 101,
         ambulance: 112,
         fire: 112,
-        embassy: "+32(0)22876211",
+        embassy: "+32 022876211",
     },
     {
         country: "Belize",
@@ -132,13 +132,6 @@ export const emergency_contacts = [
         ambulance: 119,
         fire: 118,
         embassy: "+855 613000",
-    },
-    {
-        country: "Cameroon",
-        police: 112,
-        ambulance: 112,
-        fire: 112,
-        embassy: "BHC.Yaounde@fcdo.gov.uk",
     },
     {
         country: "Chile",
@@ -288,7 +281,7 @@ export const emergency_contacts = [
         police: 999,
         ambulance: 999,
         fire: 999,
-        embassy: "+33 0144513100",
+        embassy: "N/A",
     },
     {
         country: "India",
