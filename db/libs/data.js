@@ -49,14 +49,6 @@ export const emergency_contacts = [
         embassy: "+44 2070085000",
     },
     {
-        country: "Australia",
-        police: 000,
-        ambulance: 000,
-        fire: 000,
-        embassy: "+612 82472200",
-    },
-
-    {
         country: "Austria",
         police: 112,
         ambulance: 144,
